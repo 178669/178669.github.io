@@ -9,7 +9,7 @@
 
 @color-default         : #666666;
 @color-contrast        : #333333;
-@color-dimmed          : lighten(@color-default, 10%);
+@color-dimmed          : lighten(@color-default, 30%);
 @color-action          : #bd1550;
 @color-caption         : @color-contrast;
 @color-meta            : #a5a5a5;
@@ -95,6 +95,7 @@ a {
 	.title {
 		font-family:@font-special; .font-size(4.9);
 		a { text-decoration: none; color: @color-caption; }
+		-webkit-text-stroke: 2px black;
 	}
 
 	.tagline {
